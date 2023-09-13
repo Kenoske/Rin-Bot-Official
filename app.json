@@ -1,5 +1,5 @@
 {
-  "name": "Rin Bot Official by Rin",
+  "name": "ʀɪɴ ʙᴏᴛ ᴏғғɪᴄɪᴀʟ ʙʏ ʀɪɴ",
   "description": "A Whatsapp bot built in NodeJs to make experience better\n\t if Any Problem : https://youtube.com/@KENOSKE_V5.0?si=jbBEkoEJYDd7vk4e",
   "logo": "https://i.imgur.com/NpA3ZsJ.jpeg",
   "keywords": ["whatsappbot", "Rin bot official", "rin md", "Rin-Md", "rinbotofficial", "rinwabot","Rin bot whatsapp","Rin Bot Official WhatsApp","multi device"],
@@ -8,7 +8,7 @@
 "env": {
   "OWNER_NAME": {
     "description": "Name of Bot Owner",    
-    "value": "kenoske",
+    "value": "Rin",
     "required" :true
   }, 
   "HEROKU_API_KEY": {
@@ -44,16 +44,16 @@
   "READ_MESSAGE": {
     "description": "Fill the value true if you want bot to read all messages.",
     "required" :false,
-    "value": "false"
+    "value": "true"
   },
   "DISABLE_PM": {
-    "description": "Disable bot in pm, Take it false if you wanna run bot in your pm",
+    "description": "Disable bot in PM, Take it false if you wanna run bot in your pm",
     "value": "false",
     "required" :false
   },
   "ALWAYS_ONLINE": {
     "description": "Take it 'true' if you wanna show Always Onlline",
-    "value": "false",
+    "value": "true",
     "required" :false
   },
   "PREFIX": {
@@ -62,7 +62,7 @@
   },
   "OWNER_NUMBER": {
     "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-    "value": "918731030752"
+    "value": "918731030752,918787599649"
   },
    "SESSION_ID": {
     "description": "Please put your SESSION_ID here,if you don't have visit\nhttps://replit.com/@SuhailTechInfo/Secktor-Bot"
@@ -92,12 +92,12 @@
   },
   "PACK_NAME": {
     "description": "Put Sticker Pack_Name.",
-    "value": "",
+    "value": "ʀɪɴ ʙᴏᴛ ᴏғғɪᴄɪᴀʟ",
     "required": false 
   },
   "PACK_AUTHER": {
     "description": "Put Sticker Author_Name.",
-    "value": "",
+    "value": "ʀɪɴ",
     "required": false 
   }
 },
